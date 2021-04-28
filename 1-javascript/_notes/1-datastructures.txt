@@ -1,0 +1,152 @@
+Data Structures
+======================
+1. intro
+2. variable
+3. var, let ,const
+4. comments: // , /* */
+5. Data Types
+6. Joining/concatination
+7. debugging/testing function: console.log()
+8. operators
+9. conditional statements
+10. loops
+
+
+
+
+1.intro
+------------
+
+
+Javascript - Client side scripting Language
+Only Runs in Browser
+
+JS- ServerSide Scripting Language
+
+Final description:
+Client Side and Server Side scripting Language
+
+
+ECMA Script - full form of ECMA is European Computer Manufacturer's Association
+Official name:
+ECMA Script - 2015 : (ES6)
+ECMA Script - 2016
+ECMA Script - 2017
+ECMA Script - 2018
+
+
+
+2. variable
+--------------------------
+
+1. declaring
+2. assigning
+
+var a=1;
+
+
+var a;
+
+a=2;
+
+
+
+3. var, let ,const
+---------------------------
+
+var - old
+let , const - new - block scope
+{
+    let a =1;
+
+}
+
+
+a=> not available
+
+
+5. Data Types
+-------------------
+
+2 Types
+1. primitive data types
+2. Reference Data types
+
+
+
+1. primitive data types:
+--------------------
+5
+
+String
+Number
+boolean
+null
+undefined(notdefined)
+
+2. Reference Data types:
+    1. functions
+    2. arrays
+    3. objects
+
+
+Notes:
+
+
+
+Functions:
+--------------
+group of statements doing 1 task/purpose
+
+function add(){
+    var a=1;
+    var b=2;
+    console.log(a+b);
+}
+
+Arrays:
+==============
+Square bracket
+storing multiple values in single variable 
+
+var a = [1,2,3];
+
+
+
+Objects:
+=================
+Curley Braces
+- key value pair
+- property-value pair **
+
+{
+    "propety":"value"
+}
+
+
+6. Joining/concatination
+==========================
++
+
+2 strings
+string, variable
+2 variables
+
+
+9. conditional statements
+===========================
+
+if
+if else
+if elseif else
+switch
+
+
+10.loops
+----------------
+
+for loop
+
+for(initialization; condition; increment/decrement){
+
+}

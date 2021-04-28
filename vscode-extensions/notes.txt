@@ -1,0 +1,47 @@
+Speed:
+===================
+- master IDE
+- coding standards -> Managability
+
+
+Extension:
+==============
+* 1- Better comments
+--------------------
+// ! 
+
+* 2- bracket pair colorizer
+---------------------------
+
+function add(){
+    if(){
+
+    }
+}
+function add(){
+    
+}
+
+
+* 3-duplicate action
+------------------
+
+
+4- Bookmarks/ Numbered Bookmark
+------------------
+
+
+5- open in browser
+-------------------
+
+6- Live server
+-------------------
+
+
+6- material Icons
+--------------
+
+Useful theme
+-------------
+
+winter is coming
