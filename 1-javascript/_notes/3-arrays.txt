@@ -1,0 +1,156 @@
+JavaScript Arrays
+====================
+
+2 ways
+1. literal pattern - Modern
+2. constructor pattern
+
+var a = [1,2,3];
+var a =  array(1,2,3);
+
+ - store numbers [1,2,3]
+ - store strings ['kk','ll','mm']
+ - store strings, numbers ['kk',2,'mm']
+ - store objects [{}, {}]
+ - store array [[],[]]
+
+- index based
+
+based on index, a[0]
+
+ Array=>
+ properties and Methods
+
+ Properties:
+ --------------
+ length
+
+ methods:
+ -------------
+Add:
+------
+1. push(): add at end of array
+
+2. unshift(): add at start of array
+
+2. splice(): adds at any place
+
+startIndex,
+How many Members to remove,
+Members to add(seperated by commas)
+
+
+
+
+Remove
+---------
+1. pop(): add at end of array
+
+2. shift(): add at start of array
+
+2. splice(): add/remove at any place
+
+
+Find
+-------
+
+1. primitive
+    .indexOf() : gives index (if not, -1)
+    .lastIndexOf()
+    .includes();
+
+
+2. advanced:
+
+.find(): gives single member
+.filter(): gives array
+
+.find((single)=>{  return single;})
+.find((single)=>{ if(single==2){ return single;}})
+
+Join
+--------
+var a = [1,2,3];
+
+a.join(''); => gives string
+123
+
+split() => split string into array
+
+
+
+EX: KING => reverse
+
+
+method chaining
+var a ="KING";
+
+var result = a.split('').reverse().join('')
+
+
+map method
+-------------
+transform array data
+gives array with same members
+
+var a = [1,2,3];
+a.map((single)=>{  return 99;})
+map => gives new array(it will not affect old array)
+
+
+interating through array
+-------------------
+var a = ["kk","ll"];
+
+1. for of loop
+2. forEach loop
+
+FOFA ->
+for(let s of a){
+console.log(s+"Sir")
+
+}
+
+a.forEach(s=>{
+
+})
+
+
+Duplicating array
+-------------------
+
+var a = [1,2,3];
+
+var b = a;
+
+Spread operator
+var c = [...a];
+
+
+Joining Arrays
+----------------------
+var a = [1,2,3];
+var b = [11,22,33];
+
+var c = a.concat(b);
+var c = [...a,...b];
+
+
+
+
+
+
+Sorting
+------------------
+alphabets
+
+a.sort();
+
+
+reduce()
+============
+[1,2,3].reduce((total,currentValue)=>total+currentValue);
+
+
+
+
